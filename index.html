@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Equation Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="duet.png" alt="Duet" class="duet-logo">
+        <img src="me.png" alt="Me" class="my-image">
+        <h1>Complex Equation Solver</h1>
+        <div class="equation">
+            <div class="input-container">
+                <label for="a1_real">a1:</label>
+                <input type="text" id="a1_real" class="input" placeholder="Real" inputmode="numeric" value="0">
+                <span class="operator">+</span>
+                <input type="text" id="a1_imaginary" class="input" placeholder="Imaginary" inputmode="numeric" value="0">
+                <span class="operator">i</span>
+            </div>
+            <div class="input-container">
+                <label for="b1_real">b1:</label>
+                <input type="text" id="b1_real" class="input" placeholder="Real" inputmode="numeric" value="0">
+                <span class="operator">+</span>
+                <input type="text" id="b1_imaginary" class="input" placeholder="Imaginary" inputmode="numeric" value="0">
+                <span class="operator">i</span>
+            </div>
+            <div class="input-container">
+                <label for="c1_real">c1:</label>
+                <input type="text" id="c1_real" class="input" placeholder="Real" inputmode="numeric" value="0">
+                <span class="operator">+</span>
+                <input type="text" id="c1_imaginary" class="input" placeholder="Imaginary" inputmode="numeric" value="0">
+                <span class="operator">i</span>
+            </div>
+        </div>
+        <div class="equation">
+            <div class="input-container">
+                <label for="a2_real">a2:</label>
+                <input type="text" id="a2_real" class="input" placeholder="Real" inputmode="numeric" value="0">
+                <span class="operator">+</span>
+                <input type="text" id="a2_imaginary" class="input" placeholder="Imaginary" inputmode="numeric" value="0">
+                <span class="operator">i</span>
+            </div>
+            <div class="input-container">
+                <label for="b2_real">b2:</label>
+                <input type="text" id="b2_real" class="input" placeholder="Real" inputmode="numeric" value="0">
+                <span class="operator">+</span>
+                <input type="text" id="b2_imaginary" class="input" placeholder="Imaginary" inputmode="numeric" value="0">
+                <span class="operator">i</span>
+            </div>
+            <div class="input-container">
+                <label for="c2_real">c2:</label>
+                <input type="text" id="c2_real" class="input" placeholder="Real" inputmode="numeric" value="0">
+                <span class="operator">+</span>
+                <input type="text" id="c2_imaginary" class="input" placeholder="Imaginary" inputmode="numeric" value="0">
+                <span class="operator">i</span>
+            </div>
+        </div>
+        <button id="solveBtn">Solve Equations</button>
+        <div id="result"></div>
+    </div>
+    
+    <footer>
+        <p>This web page is created by <a href="https://facebook.com/radowan.ahmed.1st">Radowan Ahmed</a>.</p>
+        <p>EEE 1/2, DUET</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
